@@ -11,7 +11,7 @@
 > 自动登录，无需注册账号，全程无感，抗白屏。
 
 ## 缺陷
-> 暂时需要手动输入“https://exhentai.org”，无法自动从“http://exhentai.org”跳转到“https://exhentai.org”。（谷歌浏览器的锅）
+> 暂时需要手动输入“[https://exhentai.org](https://exhentai.org)”，无法自动从“[http://exhentai.org](http://exhentai.org)”跳转到“[https://exhentai.org](https://exhentai.org)”。（谷歌浏览器的锅）
 
 ## 安装方式
 > 1. [Greasy Fork（可能需要登录）](https://greasyfork.org/zh-CN/scripts/395739-exhentai-e-hentai-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
