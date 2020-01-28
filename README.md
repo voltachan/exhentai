@@ -22,4 +22,4 @@
 > 2. 如果出现账号停用，请[提交 ISSUE](https://github.com/voltachan/exhentai/issues/new)。
 
 ## 更新日志
-* 修复 Greasy Fork 对脚本的审查
+> * 修复 Greasy Fork 对脚本的审查
