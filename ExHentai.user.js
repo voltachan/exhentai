@@ -26,18 +26,18 @@
 (function() {
     'use strict';
     if (document.cookie.match("7b40ef2a10f8bb5bb38c81014163a1e4")===null) {
-        setCookie('igneous','162ff11c3');
-        setCookie('ipb_member_id','4752844');
-        setCookie('ipb_pass_hash','7b40ef2a10f8bb5bb38c81014163a1e4');
+        setCookie("igneous","162ff11c3");
+        setCookie("ipb_member_id","4752844");
+        setCookie("ipb_pass_hash","7b40ef2a10f8bb5bb38c81014163a1e4");
         window.location.reload();
         if (document.cookie.match("louder")!==null) {
             document.cookie= "yay=louder;domain=."+window.location.host+";expires=-1";
         }
     }
     if (window.location.host=="e-hentai.org" && document.cookie.match("0sppol5laxrnzs9nzaih09g1o2nk")===null){
-        setCookie('sk','0sppol5laxrnzs9nzaih09g1o2nk');
-        setCookie('s','d060769b9');
-    }
+        setCookie("sk","0sppol5laxrnzs9nzaih09g1o2nk");
+        setCookie("s","d060769b9");
+        }
     {
         let protocolStr = document.location.protocol;
         if(protocolStr !== "https:"){
@@ -45,8 +45,8 @@
         }
     }//无效。chrome-error://chromewebdata/
     function setCookie(c_name,value){
-        let exdate=new Date();
-        exdate.setDate(exdate.getDate()+365);
-        document.cookie=c_name+ "=" +escape(value)+";domain=."+window.location.host+";expires="+exdate.toGMTString();
+        let date=new Date();
+        date.setDate(date.getDate()+365);
+        document.cookie=c_name+ "=" +escape(value)+";domain=."+window.location.host+";expires="+date.toGMTString();
     }
 })();
