@@ -14,7 +14,7 @@
 > 暂时需要手动输入“https://exhentai.org”，无法自动从“http://exhentai.org”跳转到“https://exhentai.org”。（谷歌浏览器的锅）
 
 ## 安装方式
-> 1. [Greasy Fork](https://greasyfork.org/zh-CN/scripts/395719-exhentai-e-hentai-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
+> 1. [Greasy Fork（需要登录）](https://greasyfork.org/zh-CN/scripts/395719-exhentai-e-hentai-%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95)
 > 2. [本地下载](https://github.com/voltachan/exhentai/raw/master/ExHentai.user.js/ExHentai.user.js)
 
 ## 提示
