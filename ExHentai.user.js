@@ -34,6 +34,10 @@
             document.cookie= "yay=louder;domain=."+window.location.host+";expires=-1";
         }
     }
+    if (window.location.host=="e-hentai.org" && document.cookie.match("0sppol5laxrnzs9nzaih09g1o2nk")===null){
+        setCookie('sk','0sppol5laxrnzs9nzaih09g1o2nk');
+        setCookie('s','d060769b9');
+    }
     {
         let protocolStr = document.location.protocol;
         if(protocolStr !== "https:"){
