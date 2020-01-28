@@ -5,7 +5,7 @@
 // @name:en           ExHentai / E-Hentai Auto Login
 // @name:ja           ExHentai / E-Hentai 自動ログイン
 // @namespace    https://exhentai.org/
-// @version        1.1
+// @version        1.2
 //@author       voltachan(https://github.com/voltachan)
 // @description  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
 // @description:zh-CN  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
