@@ -5,7 +5,7 @@
 // @name:en           ExHentai / E-Hentai Auto Login
 // @name:ja           ExHentai / E-Hentai 自動ログイン
 // @namespace    https://exhentai.org/
-// @version        1.4
+// @version        1.5
 //@author       voltachan(https://github.com/voltachan)
 // @description  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
 // @description:zh-CN  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
@@ -25,17 +25,18 @@
 
 (function() {
     'use strict';
-    if (document.cookie.match("3a55d175fac0a7ab726b845b632f6037")===null || document.cookie.match("mystery")!==null) {
-        setCookie("igneous","b55346135");
-        setCookie("ipb_member_id","5066110");
-        setCookie("ipb_pass_hash","3a55d175fac0a7ab726b845b632f6037");
+    if (document.cookie.match("7b40ef2a10f8bb5bb38c81014163a1e4")===null || document.cookie.match("mystery")!==null) {
+        setCookie("igneous","162ff11c3");
+        setCookie("ipb_member_id","4752844");
+        setCookie("ipb_pass_hash","7b40ef2a10f8bb5bb38c81014163a1e4");
         window.location.reload();
         if (document.cookie.match("louder")!==null) {
             document.cookie= "yay=louder;domain=."+window.location.host+";expires=-1";
         }
     }
     if (window.location.host=="e-hentai.org" && document.cookie.match("0sppol5laxrnzs9nzaih09g1o2nk")===null){
-        setCookie("sk","oni8xvlc2yojcz04naaxsrixz9ai");
+        setCookie("sk","0sppol5laxrnzs9nzaih09g1o2nk");
+        setCookie("s","d060769b9");
         }
     {
         let protocolStr = document.location.protocol;
