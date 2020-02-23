@@ -5,7 +5,7 @@
 // @name:en           ExHentai / E-Hentai Auto Login
 // @name:ja           ExHentai / E-Hentai 自動ログイン
 // @namespace    https://exhentai.org/
-// @version        1.5
+// @version        1.6
 //@author       voltachan(https://github.com/voltachan)
 // @description  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
 // @description:zh-CN  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
@@ -37,7 +37,7 @@
     if (window.location.host=="e-hentai.org" && document.cookie.match("0sppol5laxrnzs9nzaih09g1o2nk")===null){
         setCookie("sk","0sppol5laxrnzs9nzaih09g1o2nk");
         setCookie("s","d060769b9");
-        }
+    }
     {
         let protocolStr = document.location.protocol;
         if(protocolStr !== "https:"){
@@ -49,4 +49,28 @@
         date.setDate(date.getDate()+365);
         document.cookie=c_name+ "=" +escape(value)+";domain=."+window.location.host+";expires="+date.toGMTString();
     }
+    if(!(/gallerytorrents\.php/).test(unsafeWindow.location.href)){
+        return;
+        console.log("not found");
+    }
+    let tableList = document.querySelectorAll("#torrentinfo form table");
+    if(tableList&&tableList.length){tableList.forEach(function (table) {
+        let href = '';
+        let a = table.querySelector('a');
+        if(a)href = a.href;
+        if(!href)return;
+        let magnet = href.replace(/.*?([0-9a-f]{40}).*$/i,"magnet:?xt=urn:btih:$1") ;
+        if(magnet.length != 60)return;
+        let insertionPoint = table.querySelector('input');
+        if(!insertionPoint)return;
+        let button = document.createElement("input");
+        button.type = "button";
+        button.value = "复制磁力链";
+        button.onclick = function () {
+            GM_setClipboard(magnet);
+        };
+        console.log("OK");
+        insertionPoint.parentNode.insertBefore( button, insertionPoint );
+        insertionPoint.remove();
+    })}
 })();
