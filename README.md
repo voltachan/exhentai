@@ -23,3 +23,4 @@
 
 ## 更新日志
 > * 修复 Greasy Fork 对脚本的审查
+> * 加入了磁力链一键复制功能（取自 [Eh磁力链助手](https://gist.github.com/xioxin/588cfcbc9d4a50e797c1cacb0a620a03)，如有侵权请联系）
