@@ -25,18 +25,14 @@
 
 (function() {
     'use strict';
-    if (document.cookie.match("7b40ef2a10f8bb5bb38c81014163a1e4")===null || document.cookie.match("mystery")!==null) {
-        setCookie("igneous","162ff11c3");
-        setCookie("ipb_member_id","4752844");
-        setCookie("ipb_pass_hash","7b40ef2a10f8bb5bb38c81014163a1e4");
+    if (document.cookie.match("1c9270dba822fb0f833c1e36885a8958")===null || document.cookie.match("mystery")!==null) {
+        setCookie("igneous","616f4f541");
+        setCookie("ipb_member_id","5095139");
+        setCookie("ipb_pass_hash","1c9270dba822fb0f833c1e36885a8958");
         window.location.reload();
         if (document.cookie.match("louder")!==null) {
             document.cookie= "yay=louder;domain=."+window.location.host+";expires=-1";
         }
-    }
-    if (window.location.host=="e-hentai.org" && document.cookie.match("0sppol5laxrnzs9nzaih09g1o2nk")===null){
-        setCookie("sk","0sppol5laxrnzs9nzaih09g1o2nk");
-        setCookie("s","d060769b9");
     }
     {
         let protocolStr = document.location.protocol;
