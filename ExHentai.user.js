@@ -5,8 +5,8 @@
 // @name:en           ExHentai / E-Hentai Auto Login
 // @name:ja           ExHentai / E-Hentai 自動ログイン
 // @namespace    https://exhentai.org/
-// @version        1.7
-//@author       voltachan(https://github.com/voltachan)
+// @version        1.8
+// @author       voltachan(https://github.com/voltachan)
 // @description  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
 // @description:zh-CN  ExHentai / E-Hentai 自动登录；当前HTTP无法自动转HTTPS（怪谷歌浏览器）
 // @description:zh-TW  ExHentai / E-Hentai 自動登錄；當前HTTP無法自動轉HTTPS（怪谷歌瀏覽器）
@@ -17,6 +17,7 @@
 // @include        *://*.e*hentai.org/*
 // @include        *://e*hentai.org/*
 // @grant          unsafeWindow
+// @grant          GM_setClipboard
 // @compatible firefox
 // @compatible chrome
 // @compatible edge
